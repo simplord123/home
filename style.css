@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* begin reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: poppins;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #333;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, rgb(29, 28, 28) 20%, rgb(173, 41, 173));
+}
+.img{
+    display: block;
+    width: 10%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.hero{
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: #333;
+    background-image: url('gratisography-rocky-cliff-view-free-stock-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+.navbar{
+    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40, 0.211));
+    box-shadow: 1px 1px 5px black;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 0.2rem;
+    text-shadow: 1px 1px 1px black;
+}
+.logo a:hover{
+    color: gold;
+}
+.li{
+    list-style-type: none;
+    display: inline-block;
+}
+.li a{
+    color: white;
+    margin-right: 0.2rem;
+    text-shadow: 1px 1px 1px black;
+}
+.li a:hover,
+.li a:focus{
+    color: gold;
+}
+footer a,
+footer a:visited{
+    color: white;
+}
+footer img{
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+footer{
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+    padding: 1rem;
+    bottom: 0;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.658);
+    backdrop-filter: blur(1rem);
+    border-top: 5px double #333;   
+    color: whitesmoke;
+    text-align: center;
+}
+footer p{
+    color: whitesmoke;
+}
+.h2{
+    margin-top: 1rem;
+    color: papayawhip;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+p{
+    color: white;
+    font-size: small;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
