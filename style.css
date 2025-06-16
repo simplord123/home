@@ -12,7 +12,10 @@ body{
     margin: auto;
     border: 1px solid #333;
     min-height: 100vh;
-    background-image: linear-gradient(to right top, rgb(29, 28, 28) 20%, rgb(173, 41, 173));
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(rgb(173, 41, 173),rgb(29, 28, 28));
+
 }
 .img{
     display: block;
@@ -45,7 +48,7 @@ body{
     text-shadow: 2px 2px 2px black;
 }
 .navbar{
-    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40, 0.211));
+    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40, 0.9));
     box-shadow: 1px 1px 5px black;
 }
 .navdiv{
@@ -87,13 +90,17 @@ footer img{
     padding-right: 0.25rem;
     padding-left: 0.25rem;
 }
+header{
+    position: sticky;
+    top: 0;
+}
 footer{
     position: fixed;
     width: inherit;
     max-width: inherit;
     padding: 1rem;
     bottom: 0;
-    height: 280px;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.658);
     backdrop-filter: blur(1rem);
     border-top: 5px double #333;   
@@ -115,3 +122,44 @@ p{
     text-align: center;
     text-shadow: 1px 1px 1px black;
 }
+main{
+    text-align: center;
+    line-height: 1.5rem;
+    flex-grow: 1;
+}
+@media screen and (min-width: 200px) {
+    main p,h1,h2,h3,h4{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+    body{
+        min-height: 160vh;
+    }
+}
+@media screen and (min-width: 400px) {
+    main p,h1,h2,h3,h4{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+    body{
+        min-height: 130vh;
+    }
+}
+@media screen and (min-width: 700px) {
+    main p,h4{
+        font-size: 1.5rem;
+    }
+    main h2{
+        font-size: 1.5rem;
+    }
+    footer{
+        font-size: 1rem;
+    }
+    body{
+        min-height: 100vh;
+    }
+} 
