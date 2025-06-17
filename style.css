@@ -14,7 +14,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(rgb(173, 41, 173),rgb(29, 28, 28));
+    background-image: radial-gradient(firebrick,rgb(29, 28, 28));
 
 }
 .img{
@@ -114,52 +114,16 @@ footer p{
     margin-top: 1rem;
     color: papayawhip;
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 5px 5px 5px black;
 }
 p{
     color: white;
     font-size: small;
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 5px 5px 5px black;
 }
-main{
-    text-align: center;
-    line-height: 1.5rem;
-    flex-grow: 1;
+main img {
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px black;
 }
-@media screen and (min-width: 200px) {
-    main p,h1,h2,h3,h4{
-        font-size: 1rem;
-    }
-    footer{
-        font-size: 0.8rem;
-    }
-    body{
-        min-height: 160vh;
-    }
-}
-@media screen and (min-width: 400px) {
-    main p,h1,h2,h3,h4{
-        font-size: 1rem;
-    }
-    footer{
-        font-size: 0.8rem;
-    }
-    body{
-        min-height: 130vh;
-    }
-}
-@media screen and (min-width: 700px) {
-    main p,h4{
-        font-size: 1.5rem;
-    }
-    main h2{
-        font-size: 1.5rem;
-    }
-    footer{
-        font-size: 1rem;
-    }
-    body{
-        min-height: 100vh;
-    }
-} 
+
