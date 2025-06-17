@@ -84,8 +84,8 @@ footer img{
     display: inline-block;
     margin: auto;
     align-items: center;
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
 }
 header{
     position: sticky;
