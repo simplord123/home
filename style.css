@@ -79,10 +79,6 @@ body{
 .li a:focus{
     color: gold;
 }
-footer a,
-footer a:visited{
-    color: white;
-}
 footer img{
     display: inline-block;
     margin: auto;
@@ -114,7 +110,7 @@ footer{
     text-align: center;
     text-shadow: 5px 5px 5px black;
 }
-p{
+main p{
     color: white;
     font-size: small;
     text-align: center;
