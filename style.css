@@ -106,10 +106,10 @@ footer{
     border-top: 5px double #333;   
     color: whitesmoke;
     text-align: center;
-    font-size: 0.6rem;
 }
 footer p{
     color: whitesmoke;
+    font-size: 0.6rem;
 }
 .h2{
     margin-top: 1rem;
