@@ -120,3 +120,7 @@ main img {
     border-radius: 2rem;
     box-shadow: 5px 5px 5px black;
 }
+audio{
+    display: block;
+    margin: 1rem auto auto;
+}
