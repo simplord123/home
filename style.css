@@ -123,4 +123,6 @@ main img {
 audio{
     display: block;
     margin: 1rem auto auto;
+    width: 15rem;
+    height: 2rem;
 }
