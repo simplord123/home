@@ -121,6 +121,7 @@ main img {
     box-shadow: 5px 5px 5px black;
 }
 audio{
+    display: block;
     margin: 1rem auto auto;
     width: 15rem;
     height: 2rem;
