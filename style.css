@@ -90,6 +90,7 @@ footer img{
 header{
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 footer{
     width: inherit;
@@ -105,7 +106,6 @@ footer{
     font-size: small;
 }
 .h2{
-
     color: papayawhip;
     text-align: center;
     text-shadow: 5px 5px 5px black;
@@ -121,8 +121,9 @@ main img {
     box-shadow: 5px 5px 5px black;
 }
 audio{
-    display: block;
     margin: 1rem auto auto;
     width: 15rem;
     height: 2rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px black;
 }
